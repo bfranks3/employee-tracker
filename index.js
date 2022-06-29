@@ -65,14 +65,6 @@ const viewEmployee = () => {
     });
 };
 
-const viewDepartment = () => {
-    const deptQuery = `SELECT * FROM department`;
-    db.query(deptQuery, function (err, rows) {
-        if (err) throw err;
-        console.table(rows);
-        startServer();
-    });
-};
 const viewEmployees = () => {
     const sql = `SELECT employee.id, employee.first_name, employee.last_name,
                  roles.title, departments.department, roles.salary,
