@@ -1,7 +1,27 @@
 {
   "dependencies": {
     "console.table": "^0.10.0",
-    "inquirer": "^9.0.0",
-    "mysql2": "^2.3.3"
-  }
+    "dotenv": "^16.0.1",
+    "inquirer": "^8.2.4",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.3.3",
+    "node": "^17.7.2"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "name": "employee-tracker",
+  "description": "## Description",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bfranks3/employee-tracker.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bfranks3/employee-tracker/issues"
+  },
+  "homepage": "https://github.com/bfranks3/employee-tracker#readme"
 }
