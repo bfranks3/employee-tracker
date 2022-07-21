@@ -1,6 +1,5 @@
 # Employee-Tracker
 
-[![made-with-javascript](https://img.shields.io/badge/Made%20with-JavaScript-1f425f.svg)](https://www.javascript.com)
 
 
 ## User Story
@@ -32,7 +31,6 @@
 
 ## Usage 
 
-https://watch.screencastify.com/v/1ZSkZtvSGhuersPgZRud
 
 * Run npm start in the CLI after installing dependencies
 
