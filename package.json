@@ -8,20 +8,22 @@
     "node": "^17.7.2"
   },
   "scripts": {
-    "start": "node index.js"
+    "start": "node server.js"
   },
   "name": "employee-tracker",
   "description": "## Description",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "server.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/bfranks3/employee-tracker.git"
   },
-  "author": "",
+  "author": "bfranks3",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/bfranks3/employee-tracker/issues"
   },
-  "homepage": "https://github.com/bfranks3/employee-tracker#readme"
+  "homepage": "https://github.com/bfranks3/employee-tracker#readme",
+  "devDependencies": {},
+  "keywords": []
 }
